@@ -1,0 +1,21 @@
+{
+  "name": "saucedemo-playwright-ecom",
+  "version": "1.0.0",
+  "description": "End-to-end automation suite for SauceDemo e-commerce using Playwright + TypeScript",
+  "scripts": {
+    "test":              "playwright test",
+    "test:smoke":        "playwright test --grep @smoke",
+    "test:regression":   "playwright test --grep @regression",
+    "test:headed":       "HEADLESS=false playwright test",
+    "test:chrome":       "playwright test --project=chromium",
+    "test:firefox":      "playwright test --project=firefox",
+    "test:safari":       "playwright test --project=webkit",
+    "test:mobile":       "playwright test --project=mobile-chrome --project=mobile-safari",
+    "report":            "playwright show-report reports/html",
+    "lint":              "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.0.0"
+  }
+}
