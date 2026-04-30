@@ -1,6 +1,6 @@
 # SauceDemo Playwright E-Commerce Test Suite
 
-![Tests](https://github.com/sumitbiswas13/saucedemo-playwright-ecom/actions/workflows/tests.yml/badge.svg)
+![E-Commerce Automation Suite](https://github.com/sumitbiswas13/saucedemo-playwright-ecom/actions/workflows/tests.yml/badge.svg)
 
 End-to-end automation suite for [saucedemo.com](https://www.saucedemo.com) — a demo e-commerce platform. Built with **Playwright + TypeScript** using the **Page Object Model** pattern.
 
